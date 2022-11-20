@@ -61,42 +61,32 @@ Beneficiary claims data size: (116352, 32)
 
 
 ### Discussion
-Which program resulted in a higher weight increase / week?
-Looking at the data, the sample size was rather small unfortunately. 
-There were only 3, 4, and 3 deadlift, squat, and bench training days recorded in program 2.
-Thus it was unlikely to get accurate comparisons between program 1 and program 2. 
-However, the average weight increase / week was higher in program 1 for all lifts. 
-This may have been due to cofounding variables; strength increases very quickly initially followed by a slow in progression. 
-
 #### Initial look into the data
 A summary of the data was first created. 
 The data includes nearly 70M data points across over 100k beneficiaries.
 Most of these beneficiarys' claims come from outpatients settings, 
 with the population having a majority of white females. 
-The birth year of the beneficiaries is even distributed from 1924 to 1943.
+The birth year of the beneficiaries is even distributed from 1924 to 1943, with the mean age being 73.3 and 74 for outpatient and inpatient claims.
 
-The mean total reimbursement cost per inpatient and outpatient claims was found to be $2562.38 and $845.45, respectively. 
+The mean total reimbursement cost per inpatient and outpatient claims was found to be $2201.23 and $611.13, respectively. 
 This spans across billable procedures / services.
-The majority of this reimbursement was paid by Medicare, followed by the beneficiary, then 3rd Party Payers.
+The majority of this reimbursement was paid by Medicare, followed by the beneficiary, then 3rd Party Payers. This was plotted by source in a bar chart.
 
 #### Anaylsis of The Presence of Chronic Illness in Beneficiaries
 An analysis was conducted on the relationship between age and the number of chronic illnesses present in beneficaries.
 First the percentage of beneficiaries with 11 of the most relevant chronic illnesses was generated.
 The frequently occuring illness was found to be ischemic heart disease at 42% of the population, 
-followed by diabetes (37%), heart failure (28%), depression (21%), and Alzheimer's disease (19%).
+followed by diabetes (38%), heart failure (29%), depression (21%), and Alzheimer's disease (19%).
 This ranking is not suprising considering the mean elderly age of the population represented in beneficiaries dataset.
 
 A scatterplot was generated and a linear regression was fit the assess the relationship between age of the beneficiary and total number of reported chronic illnesses.
 Observing the scatterplot, no immediately identifiable relationship between the variables. 
 Furthermore, evaluating the linear regression yielded that there was no strong relationship between age and total number of chronic illness.
-The regression score was nearly zero (0.008) and the root mean squared, mean squared error, and mean absolute error were all indicated the model was not a good fit.
+The regression score was nearly zero (0.02) and the root mean squared, mean squared error, and mean absolute error were all indicated the model demonstrated no correlation between the two variables.
 
-This was further investigated to potentially find a reason no relationship was observed between age and total number of chronic illnesses.
+This was further investigated to find a reason no relationship was observed between age and total number of chronic illnesses.
 The age of beneficiaries vs the presence of Alzheimer's disease was analyzed to investigate this relationship on a closer level.
-No logistic relationship was observed in the scatter plot.
-This was interesting, as the data was reporting the presence of Alzheimer's disease in beneficiaries as young as 28 years old.
-According to the NIH, the average age of onset for Alzheimer's disease is in the mid-60's.
-This difference may be due to the generation of synthetic medical claims data may lead to inconsistencies with authentic data.
+No logistic relationship was observed in the scatter plot. This was interesting, as previous research has found a positive correlation between age and onset of Alzheimer's disease. This may be due to the synthetically produced data not full replicating the exact trends seen in authentic populations.
 
 #### What's next?
 It would be interesting to look deeper into the relationship between chronic illness and age.
@@ -104,7 +94,7 @@ Though no relationship was observed between age and the total number of chronic 
 specific illnesses may have a relationship with age that could be used to predict the probability of that illness.
 Furthermore, it would be intriguing to examine the breakdown of costs / reimbursement sources per demograph of the beneficiary population, 
 and the locations in which these beneficiaries are treated. 
-Examining this relationship could shed light into the finacial burden on certai populations,
+Examining this relationship could shed light into the finacial burden on certain populations,
 how certain demographics are treated,
 and how socioeconomic status can affect the healthcare received.
 
