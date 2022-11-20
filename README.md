@@ -45,19 +45,25 @@ Beneficiary claims data size: (116352, 32)
 <img width="766" alt="Screen Shot 2022-11-16 at 10 45 48 AM" src="https://user-images.githubusercontent.com/103863038/202266533-af0c55a5-45a3-4a37-9877-a704a79cf5f6.png">
 
 #### Plot of Chronic Illness Distribution in Beneficiary Population
-![image](https://user-images.githubusercontent.com/103863038/202266769-36d7e2b4-1f2b-45e3-8517-fed7e0f403fa.png)
+![image](https://user-images.githubusercontent.com/103863038/202918140-34a4dd6e-47c3-4c25-a4ea-097f8ca50bc4.png)
 
 #### Scatter Plot of Age of Beneficiary vs Number of Chronic Illnesses Reported
-![image](https://user-images.githubusercontent.com/103863038/202266992-931ff5ad-9224-48d8-a7ed-fca701866aac.png)
+![image](https://user-images.githubusercontent.com/103863038/202918160-7cfb27b4-a75e-4cc6-a941-9e79cebef05b.png)
 
 #### Evaluation of Linear Regression Model (Fit to Age vs Number of Chronic Illnesses)
-<img width="333" alt="Screen Shot 2022-11-16 at 10 49 19 AM" src="https://user-images.githubusercontent.com/103863038/202267280-31dae9f5-1328-479b-8039-a546b754a749.png">
+Linear Regression Score: 0.02143332307625101
+
+MAE: 1.9775560035463005
+
+MSE: 5.538241023194633
+
+RMSE: 2.3533467707064832
 
 #### Scatter Plot of Age of Beneficiary vs Presence of Alzheimer's Disease
-![image](https://user-images.githubusercontent.com/103863038/202267410-71d8871c-09ff-46f5-80ff-a1af1bbf9067.png)
+![image](https://user-images.githubusercontent.com/103863038/202918205-fb2c7b5e-707f-4afa-b629-cbeeb7079f90.png)
 
 #### Average Age of Beneficiaries with Alzheimer's Disease
-<img width="525" alt="Screen Shot 2022-11-16 at 10 51 02 AM" src="https://user-images.githubusercontent.com/103863038/202267661-0da905c8-f132-4a0f-ad91-d927ffc339ae.png">
+Average Age of Beneficiaries with Alzheimer's Disease: 78.46618162220426
 
 
 ### Discussion
