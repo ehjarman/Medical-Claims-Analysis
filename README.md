@@ -48,7 +48,7 @@ Beneficiary claims data size: (116352, 32)
 ![image](https://user-images.githubusercontent.com/103863038/202918140-34a4dd6e-47c3-4c25-a4ea-097f8ca50bc4.png)
 
 #### Scatter Plot of Age of Beneficiary vs Number of Chronic Illnesses Reported
-![image](https://user-images.githubusercontent.com/103863038/202918160-7cfb27b4-a75e-4cc6-a941-9e79cebef05b.png)
+
 
 #### Evaluation of Linear Regression Model (Fit to Age vs Number of Chronic Illnesses)
 Linear Regression Score: 0.02143332307625101
@@ -60,7 +60,7 @@ MSE: 5.538241023194633
 RMSE: 2.3533467707064832
 
 #### Scatter Plot of Age of Beneficiary vs Presence of Alzheimer's Disease
-![image](https://user-images.githubusercontent.com/103863038/202918205-fb2c7b5e-707f-4afa-b629-cbeeb7079f90.png)
+
 
 #### Average Age of Beneficiaries with Alzheimer's Disease
 Average Age of Beneficiaries with Alzheimer's Disease: 78.46618162220426
