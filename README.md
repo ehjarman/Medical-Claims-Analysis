@@ -38,8 +38,12 @@ Beneficiary claims data size: (116352, 32)
 #### Distribution of Year of Birth of Beneficiaries for Inpatient and Outpatient Claims
 <img width="456" alt="Screen Shot 2022-11-16 at 10 43 40 AM" src="https://user-images.githubusercontent.com/103863038/202266123-0c7e68da-abd8-4641-9922-d55e2d85a7e4.png">
 
-#### Summary of Reimbursement Costs per Source for Inpatient and Outpatient Claims
+#### Summary of Reimbursement Costs per Source for Inpatient and Outpatient Claims P.1
 <img width="511" alt="Screen Shot 2022-11-16 at 10 44 30 AM" src="https://user-images.githubusercontent.com/103863038/202266295-2147aa9e-1c9b-40c1-a82b-fb2c7fe8430d.png">
+
+#### Summary of Reimbursement Costs per Source for Inpatient and Outpatient Claims P.2
+![image](https://user-images.githubusercontent.com/103863038/206637295-1a9311dc-b872-4577-9493-4d3057b71afd.png)
+
 
 #### Prevalence of Reported Chronic Illnesses in Beneficiary Population and Mean Ages for Each Illness
 <img width="766" alt="Screen Shot 2022-11-16 at 10 45 48 AM" src="https://user-images.githubusercontent.com/103863038/202266533-af0c55a5-45a3-4a37-9877-a704a79cf5f6.png">
