@@ -49,25 +49,21 @@ Beneficiary claims data size: (116352, 32)
 <img width="766" alt="Screen Shot 2022-11-16 at 10 45 48 AM" src="https://user-images.githubusercontent.com/103863038/202266533-af0c55a5-45a3-4a37-9877-a704a79cf5f6.png">
 
 #### Plot of Chronic Illness Distribution in Beneficiary Population
-![image](https://user-images.githubusercontent.com/103863038/202918140-34a4dd6e-47c3-4c25-a4ea-097f8ca50bc4.png)
-
-#### Scatter Plot of Age of Beneficiary vs Number of Chronic Illnesses Reported
-
-
-#### Evaluation of Linear Regression Model (Fit to Age vs Number of Chronic Illnesses)
-Linear Regression Score: 0.02143332307625101
-
-MAE: 1.9775560035463005
-
-MSE: 5.538241023194633
-
-RMSE: 2.3533467707064832
-
-#### Scatter Plot of Age of Beneficiary vs Presence of Alzheimer's Disease
-
+![image](https://user-images.githubusercontent.com/103863038/207007502-8369ac11-3bb9-4b44-826c-f0695b54f59c.png)
 
 #### Average Age of Beneficiaries with Alzheimer's Disease
 Average Age of Beneficiaries with Alzheimer's Disease: 78.46618162220426
+
+#### Age vs Total Number of chronic Illnesses
+![image](https://user-images.githubusercontent.com/103863038/207007611-97b1b059-0e8e-408d-88ca-8ef330800157.png)
+
+#### Violin Plot of Age in Beneficiaries with and without Alzheimer's Disease
+![image](https://user-images.githubusercontent.com/103863038/207007871-bd2598d6-4f6b-44e5-bdbb-816bd3fcdd73.png)
+
+
+#### Average Age of Beneficiaries with Alzheimer's Disease: 78.46618162220426
+#### Average Age of Beneficiaries without Alzheimer's Disease: 75.99920445505171
+#### Pearson correlation coefficient between Age and Alzheimer's Disease: -0.09905236909587523
 
 
 ### Discussion
@@ -92,11 +88,11 @@ This ranking is not suprising considering the mean elderly age of the population
 A scatterplot was generated and a linear regression was fit the assess the relationship between age of the beneficiary and total number of reported chronic illnesses.
 Observing the scatterplot, no immediately identifiable relationship between the variables. 
 Furthermore, evaluating the linear regression yielded that there was no strong relationship between age and total number of chronic illness.
-The regression score was nearly zero (0.02) and the root mean squared, mean squared error, and mean absolute error were all indicated the model demonstrated no correlation between the two variables.
+The regression score was nearly zero (0.02) and the root mean squared, mean squared error, and mean absolute error were all indicated the model demonstrated no correlation between the variables.
 
 This was further investigated to find a reason no relationship was observed between age and total number of chronic illnesses.
 The age of beneficiaries vs the presence of Alzheimer's disease was analyzed to investigate this relationship on a closer level.
-No logistic relationship was observed in the scatter plot. This was interesting, as previous research has found a positive correlation between age and onset of Alzheimer's disease. This may be due to the synthetically produced data not full replicating the exact trends seen in authentic populations.
+No logistic relationship was observed in the scatter plot, and the pearson correlation was found to be nearly zero (-0.09). This was interesting, as previous research has found a positive correlation between age and onset of Alzheimer's disease. This may be due to the synthetically produced data not full replicating the exact trends seen in authentic populations.
 
 #### What's next?
 It would be interesting to look deeper into the relationship between chronic illness and age.
